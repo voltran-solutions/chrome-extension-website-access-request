@@ -1,0 +1,7 @@
+{
+
+"PinValidationWebAppUrl": { "Value": "https://script.google.com/macros/s/'YOUR_UNIQUE_WEB_APP_ID'/exec" },
+
+"AccessRequestSheetWebAppUrl": { "Value": "https://script.google.com/macros/s/'YOUR_UNIQUE_WEB_APP_ID'/exec" }
+
+}
