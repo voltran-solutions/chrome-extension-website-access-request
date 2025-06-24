@@ -1,0 +1,51 @@
+{
+  "icons": {
+    "16": "icon16.plasmo.6c567d50.png",
+    "32": "icon32.plasmo.76b92899.png",
+    "48": "icon48.plasmo.aced7582.png",
+    "64": "icon64.plasmo.8bb5e6e0.png",
+    "128": "icon128.plasmo.3c1ed2d2.png"
+  },
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "16": "icon16.plasmo.6c567d50.png",
+      "32": "icon32.plasmo.76b92899.png",
+      "48": "icon48.plasmo.aced7582.png",
+      "64": "icon64.plasmo.8bb5e6e0.png",
+      "128": "icon128.plasmo.3c1ed2d2.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "version": "1.7.9",
+  "author": "voltransolutions@gmail.com",
+  "name": "Voltran Solutions | Website Access Request",
+  "description": "Displays the URL of the current active tab, allows requesting access, and logs user identity.",
+  "background": {
+    "service_worker": "static/background/index.js"
+  },
+  "permissions": [
+    "identity",
+    "identity.email",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://docs.google.com/*",
+    "https://script.google.com/*",
+    "https://script.googleusercontent.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "config.json"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "storage": {
+    "managed_schema": "schema.json"
+  }
+}

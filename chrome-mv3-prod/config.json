@@ -1,0 +1,7 @@
+{
+  "PinValidationWebAppUrl": { 
+    "Value": "https://script.google.com/macros/s/",
+  "AccessRequestSheetWebAppUrl": { 
+    "Value": "https://script.google.com/macros/s/" 
+  }
+}

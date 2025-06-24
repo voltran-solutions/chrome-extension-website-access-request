@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "PinValidationWebAppUrl": {
+      "title": "PIN Validation Web App URL",
+      "description": "The URL of the Google Apps Script Web App for PIN validation.",
+      "type": "string",
+      "format": "uri"
+    },
+    "AccessRequestSheetWebAppUrl": {
+      "title": "URL Logging Web App URL", 
+      "description": "The URL of the Google Apps Script Web App for logging access requests.",
+      "type": "string",
+      "format": "uri"
+    }
+  }
+}
